@@ -1,0 +1,30 @@
+{
+  "name": "gulp-factory-examples",
+  "version": "1.0.0",
+  "description": "working examples for gulp-factory plugin",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-factory": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacodekid/gulp-factory-examples.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-plugin",
+    "gulp-factory",
+    "gulp-factory-examples",
+    "gulp-plugin-examples"
+  ],
+  "author": "dacodekid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dacodekid/gulp-factory-examples/issues"
+  },
+  "homepage": "https://github.com/dacodekid/gulp-factory-examples#readme"
+}
