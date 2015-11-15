@@ -6,9 +6,19 @@
   "dependencies": {
     "gulp-factory": "^2.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gray-matter": "^2.0.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "jade": "^1.11.0",
+    "lodash": "^3.10.1",
+    "markdown-it": "^5.0.1",
+    "onchange": "^2.0.0",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js | tap-spec",
+    "start": "onchange '**/*.js' -- npm test --silent"
   },
   "repository": {
     "type": "git",
